@@ -1,0 +1,5 @@
+@media (min-width: 1023px) {
+  .header__banners .header__banner .header__description {
+    height: 275px;
+  }
+}

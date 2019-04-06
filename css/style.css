@@ -1,0 +1,1257 @@
+/* line 45, ../../../Desktop/benilde/sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 49, ../../../Desktop/benilde/sass/style.scss */
+body {
+  margin: 0;
+  color: white;
+  min-width: 320px;
+}
+
+/* line 55, ../../../Desktop/benilde/sass/style.scss */
+p {
+  font-size: 1em;
+  font-family: "Montserrat";
+}
+
+/* line 60, ../../../Desktop/benilde/sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 2em;
+  font-family: "Roboto";
+}
+
+/* line 65, ../../../Desktop/benilde/sass/style.scss */
+a {
+  font-family: "Roboto";
+}
+
+/* line 69, ../../../Desktop/benilde/sass/style.scss */
+button {
+  width: 210px;
+  height: 45px;
+  border-radius: 15px;
+  border: 2px solid #ffbf00;
+  background: none;
+  font-size: 1.5em;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 84, ../../../Desktop/benilde/sass/style.scss */
+.clearfix {
+  overflow: auto;
+}
+
+/* line 86, ../../../Desktop/benilde/sass/style.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* line 93, ../../../Desktop/benilde/sass/style.scss */
+.last-r {
+  margin-right: 0px !important;
+}
+
+/* line 97, ../../../Desktop/benilde/sass/style.scss */
+.last-b {
+  margin-bottom: 0px !important;
+}
+
+/* line 103, ../../../Desktop/benilde/sass/style.scss */
+.header .header__subheader {
+  height: 36px;
+  width: 100%;
+  background: #207d06;
+}
+
+/* line 109, ../../../Desktop/benilde/sass/style.scss */
+.header .header__subheader .header__tel {
+  width: 86%;
+  margin: 0 auto;
+}
+
+/* line 112, ../../../Desktop/benilde/sass/style.scss */
+.header .header__subheader .header__tel p {
+  margin: 0;
+  color: white;
+  display: inline;
+  float: right;
+  line-height: 36px;
+  position: relative;
+}
+
+/* line 120, ../../../Desktop/benilde/sass/style.scss */
+.header .header__subheader .header__tel p img {
+  position: absolute;
+  top: 27%;
+  left: -20px;
+}
+
+/* line 129, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper {
+  width: 86%;
+  margin: -36px auto;
+  overflow: auto;
+}
+
+/* line 134, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__logo {
+  position: relative;
+  z-index: 2;
+  width: 185.75px;
+  height: 200px;
+  background: white;
+  display: inline-block;
+  float: left;
+  border-bottom: 25px solid #207d06;
+}
+
+/* line 148, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 157, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__logo img:nth-of-type(2) {
+  display: none;
+}
+
+/* line 163, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav {
+  position: relative;
+  z-index: 2;
+  display: block;
+  height: 164px;
+  width: 100%;
+  margin-top: 36px;
+}
+
+/* line 174, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs {
+  float: right;
+  margin-top: 35px;
+}
+
+/* line 179, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs > img, .header .wrapper .header__nav .header__navs > .dropdown {
+  display: none;
+}
+
+/* line 182, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs ul {
+  padding: 0;
+}
+
+/* line 185, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 25px;
+  position: relative;
+}
+
+/* line 192, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 198, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs ul li img {
+  position: absolute;
+  top: 100%;
+  left: 68%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 206, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs ul li p {
+  display: none;
+}
+
+/* line 211, ../../../Desktop/benilde/sass/style.scss */
+.header .wrapper .header__nav .header__navs ul li:hover p, .header .wrapper .header__nav .header__navs ul li:hover a {
+  display: list-item;
+  color: #ffbf00;
+}
+
+/* line 220, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners {
+  height: 650px;
+  position: relative;
+}
+
+/* line 224, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner-navs {
+  position: absolute;
+  overflow: auto;
+  width: 100%;
+  top: 76%;
+  z-index: 2;
+}
+
+/* line 231, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner-navs button {
+  border: 0;
+  width: auto;
+  height: auto;
+}
+
+/* line 237, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner-navs button:nth-of-type(1) {
+  float: right;
+  margin-right: 25px;
+}
+
+/* line 241, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner-navs button:nth-of-type(2) {
+  float: left;
+  margin-left: 25px;
+}
+
+/* line 246, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner {
+  height: 650px;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+/* line 26, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner > img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 7px;
+}
+
+/* line 250, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner > img {
+  border-radius: 0;
+}
+
+/* line 257, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner .header__description {
+  height: 250px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: rgba(51, 51, 51, 0.5);
+}
+
+/* line 259, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner .header__description .header__desc__body {
+  width: 86%;
+  margin: 0 auto;
+  z-index: 3;
+  position: relative;
+}
+
+/* line 265, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner .header__description .header__desc__body h3 {
+  margin-bottom: 0;
+}
+
+/* line 268, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner .header__description .header__desc__body p {
+  width: 70%;
+}
+
+/* line 274, ../../../Desktop/benilde/sass/style.scss */
+.header .header__banners .header__banner .header__description .header__desc__body button p {
+  margin: 0 auto;
+  color: white;
+}
+
+/* line 288, ../../../Desktop/benilde/sass/style.scss */
+.programs {
+  height: auto;
+  width: 100%;
+}
+
+/* line 291, ../../../Desktop/benilde/sass/style.scss */
+.programs .programs__container {
+  height: auto;
+  width: 86%;
+  margin: 0 auto;
+}
+
+/* line 294, ../../../Desktop/benilde/sass/style.scss */
+.programs .programs__container .programs__item {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+/* line 300, ../../../Desktop/benilde/sass/style.scss */
+.programs .programs__container .programs__item img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 309, ../../../Desktop/benilde/sass/style.scss */
+.news {
+  height: auto;
+  width: 100%;
+}
+
+/* line 313, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container {
+  width: 86%;
+  margin: 0 auto;
+  height: 700px;
+}
+
+/* line 316, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+/* line 321, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements h3 {
+  display: table;
+  font-weight: 400;
+  color: #207d06;
+}
+
+/* line 325, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements h3 img {
+  width: 35px;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 334, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main {
+  width: 97%;
+  height: 300px;
+  border: 2px solid #207d06;
+  border-radius: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+/* line 26, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main > img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 7px;
+}
+
+/* line 343, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description {
+  height: 140px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: rgba(51, 51, 51, 0.5);
+  border-radius: 7px;
+}
+
+/* line 347, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description .wrapper {
+  width: 86%;
+  margin: 0 auto;
+}
+
+/* line 350, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description .wrapper .col-8, .news .news__container .news__announcements .news__main .news__main-description .wrapper .col-2 {
+  float: left;
+}
+
+/* line 353, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description .wrapper .col-8 {
+  width: 80%;
+}
+
+/* line 356, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description .wrapper .col-8 h2 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/* line 360, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description .wrapper .col-8 p {
+  margin-top: 2px;
+}
+
+/* line 365, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description .wrapper .col-2 {
+  position: relative;
+  width: 20%;
+  height: 128px;
+}
+
+/* line 369, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__main .news__main-description .wrapper .col-2 img {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 381, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__sub {
+  margin-right: 20px;
+  height: 230px;
+}
+
+/* line 385, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__sub .news__sub-item {
+  width: 32.3%;
+  height: 210px;
+  float: left;
+  border: 2px solid #207d06;
+  border-radius: 10px;
+  margin-right: 6px;
+  margin-top: 6px;
+  position: relative;
+}
+
+/* line 26, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__sub .news__sub-item > img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 7px;
+}
+
+/* line 394, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__sub .news__sub-item .news__sub-item-description {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: rgba(51, 51, 51, 0.5);
+  border-radius: 7px;
+}
+
+/* line 397, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__sub .news__sub-item .news__sub-item-description h2 {
+  font-size: 1.75em;
+  margin-top: 125px;
+  margin-left: 10px;
+}
+
+/* line 399, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__announcements .news__sub .news__sub-item .news__sub-item-description h2:hover {
+  color: #ffbf00;
+}
+
+/* line 413, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+/* line 419, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events h3 {
+  display: table;
+  font-weight: 400;
+  color: #207d06;
+  width: 100%;
+}
+
+/* line 425, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events h3 img {
+  width: 35px;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 437, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-4 {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+/* line 442, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-4 .news__events-date {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 449, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-4 h2 {
+  margin: 0;
+  text-align: center;
+  color: black;
+}
+
+/* line 454, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-4 h2:nth-of-type(1) {
+  color: black;
+}
+
+/* line 457, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-4 h2:nth-of-type(2) {
+  color: #ff4b4b;
+  font-size: 3em;
+}
+
+/* line 463, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-6 {
+  width: 60%;
+  height: 100%;
+  float: left;
+  display: table;
+  position: relative;
+}
+
+/* line 469, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-6 img {
+  position: absolute;
+  top: 15px;
+}
+
+/* line 473, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item .col-6 h2 {
+  padding-left: 25px;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 400;
+  font-family: "Montserrat";
+  color: black;
+  font-size: 1.5em;
+}
+
+/* line 486, ../../../Desktop/benilde/sass/style.scss */
+.news .news__container .news__events .news__event-sub-item {
+  height: 167px;
+  margin-bottom: 5px;
+  border: 2px solid #207d06;
+  border-radius: 10px;
+}
+
+/* line 496, ../../../Desktop/benilde/sass/style.scss */
+.we-value {
+  width: 100%;
+  height: 519px;
+  background: green;
+  background-image: url("../img/we-value-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 508, ../../../Desktop/benilde/sass/style.scss */
+.we-value .we-value__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 86%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 519, ../../../Desktop/benilde/sass/style.scss */
+.we-value .we-value__container .we-value__people-item {
+  width: 33.3%;
+  height: 250px;
+  float: left;
+  margin-top: 70px;
+}
+
+/* line 525, ../../../Desktop/benilde/sass/style.scss */
+.we-value .we-value__container .we-value__people-item h3:nth-of-type(1) {
+  color: #ffbf00;
+  font-weight: 600;
+}
+
+/* line 529, ../../../Desktop/benilde/sass/style.scss */
+.we-value .we-value__container .we-value__people-item h3 {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+/* line 542, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure {
+  width: 100%;
+  height: 651px;
+}
+
+/* line 545, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure .we-make-sure__container {
+  width: 86%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 548, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure .we-make-sure__container .col-5 {
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: black;
+  display: table;
+}
+
+/* line 554, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure .we-make-sure__container .col-5 span {
+  font-weight: 400;
+}
+
+/* line 559, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure .we-make-sure__container .col-5 .we-make-sure__container-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 566, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure .we-make-sure__container .col-5 .we-make-sure__container-container .we-make-sure__checklist h2 img {
+  margin-right: 10px;
+}
+
+/* line 577, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure .we-make-sure__container > div:nth-of-type(1) > div > h2 {
+  color: #207d06;
+}
+
+/* line 586, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure .we-make-sure__container > div:nth-of-type(2) img {
+  float: right;
+  width: 100%;
+}
+
+/* line 598, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 {
+  width: 100%;
+  height: 651px;
+  background: #f8f8f8;
+}
+
+/* line 602, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container {
+  width: 86%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 605, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container .col-5 {
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: black;
+  display: table;
+}
+
+/* line 611, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container .col-5 span {
+  font-weight: 400;
+}
+
+/* line 615, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container .col-5 .we-make-sure__container-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 621, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container .col-5 .we-make-sure__container-container .we-make-sure__checklist h2 img {
+  margin-right: 10px;
+}
+
+/* line 627, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container .col-5 .we-make-sure__container-container > img {
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* line 637, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container > div:nth-of-type(2) > div > h2 {
+  color: #207d06;
+}
+
+/* line 645, ../../../Desktop/benilde/sass/style.scss */
+.we-make-sure2 .we-make-sure__container > div:nth-of-type(1) img {
+  float: left;
+  width: 100%;
+}
+
+/* line 654, ../../../Desktop/benilde/sass/style.scss */
+.vp {
+  width: 100%;
+  height: 651px;
+}
+
+/* line 657, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container {
+  width: 86%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 660, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container .col-5 {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+/* line 666, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(1) {
+  position: relative;
+}
+
+/* line 668, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(1) img {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 450px;
+  z-index: -1;
+}
+
+/* line 677, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) {
+  color: black;
+  display: table;
+}
+
+/* line 679, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) > div > h2 {
+  color: #207d06;
+}
+
+/* line 685, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) span {
+  font-weight: 400;
+}
+
+/* line 689, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) .we-make-sure__container-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 693, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) .we-make-sure__container-container p:nth-of-type(1) {
+  text-align: center;
+}
+
+/* line 696, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) .we-make-sure__container-container p:nth-of-type(2) {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+/* line 701, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) .we-make-sure__container-container h2 {
+  margin: 0;
+}
+
+/* line 705, ../../../Desktop/benilde/sass/style.scss */
+.vp .we-make-sure__container > div:nth-of-type(2) .we-make-sure__container-container p:nth-of-type(3) {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+/* line 715, ../../../Desktop/benilde/sass/style.scss */
+.footer {
+  height: 475px;
+  background: #0e0e0e;
+  color: #929292;
+}
+
+/* line 719, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container {
+  width: 86%;
+  margin: 0 auto;
+  height: 100%;
+  display: table;
+}
+
+/* line 723, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/* line 727, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main .col-3 {
+  width: 30%;
+  float: left;
+}
+
+/* line 731, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main .col-2-5 {
+  width: 25%;
+  float: left;
+  padding-right: 25px;
+}
+
+/* line 737, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main .col-1-5 {
+  width: 15%;
+  float: left;
+}
+
+/* line 743, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(2) ul, .footer .footer__container .footer__main > div:nth-of-type(3) ul {
+  padding-left: 0;
+}
+
+/* line 745, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(2) ul li, .footer .footer__container .footer__main > div:nth-of-type(3) ul li {
+  list-style-type: none;
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+/* line 751, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(2) ul li a, .footer .footer__container .footer__main > div:nth-of-type(3) ul li a {
+  text-decoration: none;
+  color: #929292;
+  font-family: 'Montserrat';
+}
+
+/* line 756, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(2) ul li a:hover, .footer .footer__container .footer__main > div:nth-of-type(3) ul li a:hover {
+  color: white;
+}
+
+/* line 764, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(2) > h2, .footer .footer__container .footer__main > div:nth-of-type(3) > h2, .footer .footer__container .footer__main > div:nth-of-type(4) > h2 {
+  margin-top: 0;
+}
+
+/* line 771, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(3) ul li {
+  margin-bottom: 2px;
+}
+
+/* line 778, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(4) input, .footer .footer__container .footer__main > div:nth-of-type(4) textarea {
+  width: 100%;
+  border: 0;
+  height: 30px;
+  padding-left: 10px;
+  font-family: 'Montserrat';
+  margin-bottom: 15px;
+}
+
+/* line 786, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(4) textarea {
+  height: 100px;
+  resize: none;
+  padding-top: 10px;
+}
+
+/* line 793, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container .footer__main > div:nth-of-type(4) button {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: #ffbf00;
+  font-size: 0.90em;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+/* line 806, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container img {
+  margin-right: 10px;
+}
+
+/* line 810, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__container h2 {
+  font-size: 1.5em;
+  color: white;
+}
+
+/* line 817, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__sub {
+  height: 45px;
+  display: block;
+}
+
+/* line 820, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__sub .footer__sub-container {
+  height: 100%;
+  width: 86%;
+  margin: 0 auto;
+  display: table;
+}
+
+/* line 825, ../../../Desktop/benilde/sass/style.scss */
+.footer .footer__sub .footer__sub-container p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  /* line 837, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner .header__description {
+    height: 312px;
+  }
+  /* line 841, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__sub .news__sub-item .news__sub-item-description h2 {
+    margin-top: 95px;
+  }
+  /* line 845, ../../../Desktop/benilde/sass/style.scss */
+  .vp .we-make-sure__container > div:nth-of-type(1) img {
+    left: 4%;
+    width: 90%;
+  }
+  /* line 850, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main .col-2-5 {
+    width: 27%;
+  }
+  /* line 854, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main .col-1-5 {
+    width: 17%;
+  }
+  /* line 858, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main .col-3 {
+    width: 25%;
+    float: left;
+  }
+}
+
+@media (max-width: 990px) {
+  /* line 866, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events .news__event-sub-item .col-6 h2 {
+    font-size: 1.25em;
+    padding-left: 13px;
+  }
+}
+
+@media (max-width: 777px) {
+  /* line 875, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__logo {
+    width: 170px;
+  }
+  /* line 879, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner .header__description .header__desc__body p {
+    width: 100%;
+  }
+  /* line 883, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner-navs button:nth-of-type(2) {
+    margin-left: 9px;
+  }
+  /* line 887, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner-navs button:nth-of-type(1) {
+    margin-right: 9px;
+  }
+  /* line 891, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events .news__event-sub-item .col-4 {
+    height: 2em;
+    margin-top: 35px;
+    width: 100%;
+  }
+  /* line 897, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events .news__event-sub-item .col-6 {
+    height: 1em;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* line 904, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events .news__event-sub-item .col-6 img {
+    display: none;
+  }
+  /* line 909, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events .news__event-sub-item .col-6 h2 {
+    font-size: 1.75em;
+    width: 20%;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+  }
+  /* line 918, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events .news__event-sub-item .col-4 h2:nth-of-type(1) {
+    display: inline-block;
+  }
+  /* line 922, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events .news__event-sub-item .col-4 h2:nth-of-type(2) {
+    display: inline-block;
+    font-size: 2em;
+  }
+  /* line 927, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__sub .news__sub-item .news__sub-item-description h2 {
+    font-size: 1.5em;
+  }
+  /* line 931, ../../../Desktop/benilde/sass/style.scss */
+  .vp .we-make-sure__container > div:nth-of-type(1) {
+    display: none;
+  }
+  /* line 935, ../../../Desktop/benilde/sass/style.scss */
+  .vp .we-make-sure__container > div:nth-of-type(2) {
+    width: 100%;
+  }
+  /* line 939, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__main .news__main-description {
+    height: 180px;
+  }
+}
+
+@media (max-width: 940px) {
+  /* line 947, ../../../Desktop/benilde/sass/style.scss */
+  .footer {
+    height: auto;
+  }
+  /* line 951, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container {
+    padding-top: 35px;
+  }
+  /* line 955, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main {
+    margin-top: 25px;
+  }
+  /* line 960, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main .col-3 {
+    width: 50%;
+  }
+  /* line 965, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main .col-1-5 {
+    width: 25%;
+  }
+  /* line 969, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main .col-2-5 {
+    width: 25%;
+  }
+  /* line 973, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__sub {
+    margin-top: 35px;
+    background: white;
+  }
+}
+
+@media (max-width: 707px) {
+  /* line 982, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__logo {
+    display: none;
+  }
+  /* line 987, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs {
+    float: left;
+    width: 100%;
+  }
+  /* line 992, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs img {
+    float: left;
+  }
+  /* line 997, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs .dropdown button {
+    width: auto;
+    float: right;
+    border: 0;
+  }
+  /* line 1003, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs .dropdown button img {
+    float: right;
+  }
+  /* line 1008, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs .dropdown ul {
+    clear: both;
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 35px;
+    display: none;
+    background: white;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+  }
+  /* line 1021, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs .dropdown ul li {
+    display: list-item;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    font-weight: 500;
+  }
+  /* line 1031, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs .dropdown ul li a {
+    color: green;
+  }
+  /* line 1038, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs > ul {
+    display: none;
+  }
+  /* line 1043, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner .header__description {
+    height: 371px;
+    z-index: 0;
+  }
+  /* line 1049, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner-navs {
+    top: 87%;
+  }
+  /* line 1053, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner-navs button:nth-of-type(1) {
+    margin-right: 37px;
+  }
+  /* line 1058, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner-navs button:nth-of-type(2) {
+    display: none;
+  }
+  /* line 1064, ../../../Desktop/benilde/sass/style.scss */
+  .programs .programs__container .programs__item {
+    width: 50%;
+  }
+  /* line 1069, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container {
+    height: auto;
+  }
+  /* line 1074, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements {
+    width: 100%;
+    height: auto;
+  }
+  /* line 1080, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__main .news__main-description {
+    height: 100%;
+  }
+  /* line 1085, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__main .news__main-description .wrapper .col-8 {
+    margin-top: 35px;
+  }
+  /* line 1094, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__sub {
+    height: 360px;
+  }
+  /* line 1098, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__sub .news__sub-item {
+    width: 48%;
+    height: 170px;
+  }
+  /* line 1104, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__sub .news__sub-item .news__sub-item-description h2 {
+    margin-top: 79px;
+  }
+  /* line 1109, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__announcements .news__sub .news__sub-item .news__sub-item-description h2:nth-of-type(1) {
+    margin-top: 62px;
+  }
+  /* line 1114, ../../../Desktop/benilde/sass/style.scss */
+  .news .news__container .news__events {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* line 1120, ../../../Desktop/benilde/sass/style.scss */
+  .we-value {
+    height: 1085px;
+  }
+  /* line 1125, ../../../Desktop/benilde/sass/style.scss */
+  .we-value .we-value__container .we-value__people-item {
+    width: 100%;
+  }
+  /* line 1130, ../../../Desktop/benilde/sass/style.scss */
+  .we-make-sure .we-make-sure__container .col-5 {
+    width: 100%;
+  }
+  /* line 1135, ../../../Desktop/benilde/sass/style.scss */
+  .we-make-sure .we-make-sure__container .col-5:nth-of-type(2) {
+    display: none;
+  }
+  /* line 1140, ../../../Desktop/benilde/sass/style.scss */
+  .we-make-sure2 .we-make-sure__container .col-5 {
+    width: 100%;
+  }
+  /* line 1145, ../../../Desktop/benilde/sass/style.scss */
+  .we-make-sure2 .we-make-sure__container .col-5:nth-of-type(1) {
+    display: none;
+  }
+  /* line 1150, ../../../Desktop/benilde/sass/style.scss */
+  .vp {
+    height: 750px;
+  }
+  /* line 1155, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__container .footer__main .col-3, .footer .footer__container .footer__main .col-1-5, .footer .footer__container .footer__main .col-2-5, .footer .footer__container .footer__main .col-3 {
+    width: 100%;
+  }
+  /* line 1160, ../../../Desktop/benilde/sass/style.scss */
+  .footer .footer__sub {
+    height: 90px;
+  }
+  /* line 1166, ../../../Desktop/benilde/sass/style.scss */
+  .header .wrapper .header__nav .header__navs > img, .header .wrapper .header__nav .header__navs > .dropdown {
+    display: block;
+  }
+}
+
+@media (max-width: 562px) {
+  /* line 1175, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner .header__description {
+    height: 435px;
+  }
+}
+
+@media (max-width: 409px) {
+  /* line 1184, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner .header__description {
+    height: 485px;
+  }
+}
+
+@media (max-width: 322px) {
+  /* line 1192, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner .header__description {
+    height: 520px;
+  }
+}
+
+@media (max-width: 813px) {
+  /* line 1202, ../../../Desktop/benilde/sass/style.scss */
+  .header .header__banners .header__banner .header__description {
+    height: 520px;
+  }
+}
+
+@media (max-width: 813px) {
+  /* line 1210, ../../../Desktop/benilde/sass/style.scss */
+  .vp {
+    height: 700px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
